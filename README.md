@@ -18,7 +18,7 @@
   
 ### pug
 ・このディレクトリをルートとしたディレクトリ構成の通りで、\*.pugが、\*.htmlに変換され吐き出されます。ディレクトリやファイルの追加は自由にやってください。  
-・dataのmeta.jsonの読み込みは「html-webpack-plugin」を利用しています。複数のファイルを読み込んだりしたい場合は、webpack.config.jsを編集して見てください。  
+・dataのmeta.jsonの読み込みは「html-webpack-plugin」を利用しています。複数のjsonファイルを読み込んだりしたい場合は、webpack.config.jsを編集してみてください。  
   
 ### stylus
 ・pugの構成に合わせたディレクトリ構成にしています。  
