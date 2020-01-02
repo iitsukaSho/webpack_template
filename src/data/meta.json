@@ -1,0 +1,14 @@
+{
+  "index": {
+    "head": {
+      "title": "Siteid",
+      "description": "Webpackをビルドツールとして利用したテンプレートです"
+    }
+  },
+  "about": {
+    "head": {
+      "title": "私たちについて | Siteid",
+      "description": "pugディレクトリ内にこのように階層を作成すれば、publicにHTMLとして吐き出されます"
+    }
+  }
+}

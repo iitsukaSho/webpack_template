@@ -1,0 +1,18 @@
+//- settings
+block variables
+- const json = self.htmlWebpackPlugin.options.file
+- const meta = json.about
+- const rooturl = self.htmlWebpackPlugin.files.publicPath
+include /_modules/_mixin
+
+//- html
+doctype html
+head
+  +head(meta)
+body
+  include /_modules/_header
+  main#aboutIndex
+    .inner
+      section
+        p ああああ
+  include /_modules/_footer

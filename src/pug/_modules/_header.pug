@@ -1,0 +1,10 @@
+//- settings
+- const rooturl = self.htmlWebpackPlugin.files.publicPath
+
+//- html
+header
+  .header_inner
+    a.siteid(href=rooturl+"index.html")
+      h1.site_logo
+        figure.logo
+          img(src=require("@src/img/Siteid.svg").default)

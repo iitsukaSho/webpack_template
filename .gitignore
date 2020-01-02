@@ -1,0 +1,12 @@
+# Dependency directories
+node_modules/
+# public/
+
+# Others
+.DS_Store
+*.log
+.idea
+.vscode
+.cache
+.eslintcache
+package-lock.json
