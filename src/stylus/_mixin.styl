@@ -1,0 +1,20 @@
+// NOTE: 参考 https://shizukanajikan.com/pdf/pdf_breakpoint2019.pdf
+// NOTE: 参考 https://gs.statcounter.com/screen-resolution-stats
+$breakpoints = {
+  xs: 'screen and (min-width:321px)',
+  sm: 'screen and (min-width:361px)',
+  // スマホ（縦）
+  // ↑
+  md: 'screen and (min-width:560px)',
+  // ↓
+  // タブレット（縦）スマホ（横）
+  // ↑
+  lg: 'screen and (min-width:960px)',
+  // ↓
+  // PC  タブレット（横）
+  xl: 'screen and (min-width:1367px)'
+}
+
+mq($breakpoint = bp)
+  @media $breakpoints[$breakpoint]
+    {block}
