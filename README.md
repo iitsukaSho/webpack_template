@@ -1,8 +1,12 @@
 # 使い方
 
+**branch**  
+`master・・・webpage用`  
+`feature/app_setting・・・webapp用`  
+
 ## 1. gitからソースを落としてきたら、下記のコマンドで、package.jsonにあるパッケージをインストール  
 
-`npm i` or `yarn`  
+`npm i`  
 
 ## 2. src内の各ディレクトリを編集してください  
 
@@ -18,7 +22,7 @@
   
 ### pug
 ・このディレクトリをルートとしたディレクトリ構成の通りで、\*.pugが、\*.htmlに変換され吐き出されます。ディレクトリやファイルの追加は自由にやってください。  
-・dataのmeta.jsonの読み込みは「html-webpack-plugin」を利用しています。複数のファイルを読み込んだりしたい場合は、webpack.config.jsを編集して見てください。  
+・dataのmeta.jsonの読み込みは「html-webpack-plugin」を利用しています。複数のjsonファイルを読み込んだりしたい場合は、webpack.config.jsを編集して見てください。  
   
 ### stylus
 ・pugの構成に合わせたディレクトリ構成にしています。  
